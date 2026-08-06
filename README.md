@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🦫 CapiCam
+# CapiCam
 
 ### Portable Infrared Eccentric Photorefraction System for Pediatric Amblyopia Risk Screening
 
@@ -93,13 +93,13 @@ Develop **CapiCam**, an eccentric photorefraction system to:
 
 ## Key Features
 
-- 📷 **Infrared eccentric photorefraction** using a NoIR camera and 850 nm IR LED arrays across three angular meridians (0°, 60°, 120°).
-- 🧮 **Automated refractive estimation** — pupil segmentation, Purkinje reflex removal, meridian intensity profiling, and power-vector calculation (M, J₀, J₄₅) to derive sphere, cylinder, and axis.
-- 🔒 **Secure data handling** — database storage designed to encode/protect sensitive patient information (aligned with Peru's Ley N.° 29733).
-- 📄 **Automated PDF reporting** — sphere/cylinder/axis per eye, red reflex status, and a qualitative amblyopia risk classification (low/moderate/high), delivered to parents via a verified email link.
-- 🧸 **Child-friendly industrial design** — capybara-shaped 3D-printed enclosure, no exposed sharp parts or cables, operator-facing screen, and an interactive audio module (child-like voice) to capture the child's attention and cooperation.
-- ⚖️ **Photobiological safety by design** — LED irradiance verified against IEC 62471 corneal and retinal exposure limits with wide safety margins.
-- 💰 **Low-cost, portable form factor** — built for under S/1,300 in components, weight and dimensions compatible with transport in a standard school backpack.
+- **Infrared eccentric photorefraction** using a NoIR camera and 850 nm IR LED arrays across three angular meridians (0°, 60°, 120°).
+- **Automated refractive estimation** — pupil segmentation, Purkinje reflex removal, meridian intensity profiling, and power-vector calculation (M, J₀, J₄₅) to derive sphere, cylinder, and axis.
+- **Secure data handling** — database storage designed to encode/protect sensitive patient information (aligned with Peru's Ley N.° 29733).
+- **Automated PDF reporting** — sphere/cylinder/axis per eye, red reflex status, and a qualitative amblyopia risk classification (low/moderate/high), delivered to parents via a verified email link.
+- **Child-friendly industrial design** — capybara-shaped 3D-printed enclosure, no exposed sharp parts or cables, operator-facing screen, and an interactive audio module (child-like voice) to capture the child's attention and cooperation.
+- **Photobiological safety by design** — LED irradiance verified against IEC 62471 corneal and retinal exposure limits with wide safety margins.
+- **Low-cost, portable form factor** — built for under S/1,300 in components, weight and dimensions compatible with transport in a standard school backpack.
 
 ## System Architecture
 
@@ -134,7 +134,7 @@ The final constructed prototype integrates:
 | 3D-printed capybara-shaped enclosure | Child-friendly housing for all electronics |
 | Adjustable tripod + custom 3D-printed mount adapter | Stable camera height adjustment during screening |
 
-> ℹ️ **Note:** the project's cost estimate (Table 1 in the paper) was built around a Raspberry Pi 4 (4 GB) and NoIR Camera v2; the constructed and evaluated prototype was later upgraded to a **Raspberry Pi 5** and **NoIR Camera v3**. Both are documented here for transparency.
+> **Note:** the project's cost estimate (Table 1 in the paper) was built around a Raspberry Pi 4 (4 GB) and NoIR Camera v2; the constructed and evaluated prototype was later upgraded to a **Raspberry Pi 5** and **NoIR Camera v3**. Both are documented here for transparency.
 
 **Bill of materials (approximate, per the reference cost estimate):**
 
@@ -158,7 +158,7 @@ Based on the methodology described in the paper, the processing pipeline relies 
 - Remote/secure **database** for encoded storage of sensitive patient data.
 - **Automated PDF report generation** and **email-based delivery** with identity verification.
 
-> 🔲 **To confirm with Andre before publishing:** the paper does not specify the exact programming language/version, ML/CV library versions, database engine, PDF generation library, or email service used in the implementation. Please confirm these so the badges and this section can be made precise (they're currently marked TBD).
+> **To confirm with Andre before publishing:** the paper does not specify the exact programming language/version, ML/CV library versions, database engine, PDF generation library, or email service used in the implementation. Please confirm these so the badges and this section can be made precise (they're currently marked TBD).
 
 ## Development Methodology
 
@@ -224,7 +224,7 @@ Across all measured records, the average percentage error between CapiCam's esti
 
 - **Reporting system:** the system successfully generated automated PDF reports (sphere/cylinder/axis, red reflex status, qualitative amblyopia risk level) and delivered them via a verified email link to a simulated parent/guardian portal.
 
-> 📌 The percentage error above reflects an early-stage, uncalibrated system evaluated on adults (not the target pediatric population) using calibration coefficients borrowed from an external reference study. See [Limitations](#limitations).
+> The percentage error above reflects an early-stage, uncalibrated system evaluated on adults (not the target pediatric population) using calibration coefficients borrowed from an external reference study. See [Limitations](#limitations).
 
 ## Limitations
 
@@ -243,7 +243,7 @@ Across all measured records, the average percentage error between CapiCam's esti
 
 ## Repository Structure
 
-> 🔲 **Placeholder — to be defined in Phase 2.** The structure below is a proposed starting point based on the system's modules; it does not yet exist in the repository.
+> **Placeholder — to be defined in Phase 2.** The structure below is a proposed starting point based on the system's modules; it does not yet exist in the repository.
 
 ```
 capicam/
@@ -264,7 +264,7 @@ capicam/
 
 ## Installation
 
-> 🔲 **Placeholder.** Installation instructions are not yet available — the codebase and dependency manifest have not been organized into this repository. This section will be completed in Phase 2 once the repository structure, dependencies, and setup scripts are finalized.
+> **Placeholder.** Installation instructions are not yet available — the codebase and dependency manifest have not been organized into this repository. This section will be completed in Phase 2 once the repository structure, dependencies, and setup scripts are finalized.
 
 ```bash
 # Coming soon
@@ -275,13 +275,13 @@ cd capicam
 
 ## Usage
 
-> 🔲 **Placeholder.** Usage instructions (running the acquisition pipeline, processing a captured session, generating a report) will be documented here once the corresponding code is published in Phase 2.
+> **Placeholder.** Usage instructions (running the acquisition pipeline, processing a captured session, generating a report) will be documented here once the corresponding code is published in Phase 2.
 
 ## Related Publications
 
 > Palomino Mozo, A. A., Chavez Rivas, A. S., Gamarra Leyva, A. I., Vallejo Canchanya, A., & Cárdenas Paniagua, D. B. L. (2026). *CapiCam: sistema portátil de fotorrefracción excéntrica infrarroja para el tamizaje de factores de riesgo de ambliopía refractiva en niños de 4 a 6 años.* Pontificia Universidad Católica del Perú.
 
-> 🔲 A DOI, conference/journal name, or preprint link was not included in the provided document — let me know if you'd like it added once available.
+> A DOI, conference/journal name, or preprint link was not included in the provided document — let me know if you'd like it added once available.
 
 ## Authors
 
@@ -295,7 +295,7 @@ Developed by a Biomedical Engineering team at **Pontificia Universidad Católica
 | André Vallejo Canchanya | a20233774@pucp.edu.pe |
 | Daniel Bagkdan Lehinad Cárdenas Paniagua | daniel.cardenasp@pucp.edu.pe |
 
-> 🔲 GitHub handles/roles for each author, plus a link to the supervising professor, are not in the paper — let me know if you'd like these added or a `CONTRIBUTORS.md`/`AUTHORS.md` file created for Phase 2.
+> GitHub handles/roles for each author, plus a link to the supervising professor, are not in the paper — let me know if you'd like these added or a `CONTRIBUTORS.md`/`AUTHORS.md` file created for Phase 2.
 
 ## License
 
