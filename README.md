@@ -157,7 +157,6 @@ Based on the methodology described in the paper, the processing pipeline relies 
 - Remote/secure **database** for encoded storage of sensitive patient data.
 - **Automated PDF report generation** and **email-based delivery** with identity verification.
 
-> **To confirm with Andre before publishing:** the paper does not specify the exact programming language/version, ML/CV library versions, database engine, PDF generation library, or email service used in the implementation. Please confirm these so the badges and this section can be made precise (they're currently marked TBD).
 
 ## Development Methodology
 
