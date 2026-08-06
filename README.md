@@ -22,7 +22,7 @@
 
 ---
 
-> ⚠️ **Note on project scope.** CapiCam is currently a validated engineering **proof of concept**, tested on adult volunteers. Testing on the target pediatric population (children aged 4–6) is pending approval from the PUCP and Instituto Nacional de Oftalmología ethics committees. No result in this repository should be interpreted as evidence of clinical performance in the target population.
+> **Note on project scope.** CapiCam is currently a validated engineering **proof of concept**, tested on adult volunteers. Testing on the target pediatric population (children aged 4–6) is pending approval from the PUCP and Instituto Nacional de Oftalmología ethics committees. No result in this repository should be interpreted as evidence of clinical performance in the target population.
 
 ## Table of Contents
 
