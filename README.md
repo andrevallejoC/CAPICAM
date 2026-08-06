@@ -126,24 +126,23 @@ The final constructed prototype integrates:
 
 | Component | Notes |
 |---|---|
-| Raspberry Pi 5 | Onboard minicomputer / processing unit |
+| Raspberry Pi 4 | Onboard minicomputer / processing unit |
 | Raspberry Pi NoIR Camera v3 | Camera without IR-cut filter, for infrared image capture |
-| 7" Raspberry Pi LCD touchscreen | Operator-facing live image display |
+| 5" Raspberry Pi LCD touchscreen | Operator-facing live image display |
 | Infrared LEDs, 850 nm nominal (~9 per meridian, 3 meridians) | Illumination source; distributed at 0°, 60°, 120° with 2/3/4 emitters per arm at increasing eccentricity for extended dynamic range |
 | NPN 2N2222A transistor | Sequential LED-arm switching via Raspberry Pi GPIO |
 | 3D-printed capybara-shaped enclosure | Child-friendly housing for all electronics |
 | Adjustable tripod + custom 3D-printed mount adapter | Stable camera height adjustment during screening |
 
-> **Note:** the project's cost estimate (Table 1 in the paper) was built around a Raspberry Pi 4 (4 GB) and NoIR Camera v2; the constructed and evaluated prototype was later upgraded to a **Raspberry Pi 5** and **NoIR Camera v3**. Both are documented here for transparency.
 
 **Bill of materials (approximate, per the reference cost estimate):**
 
 | Component | Estimated Cost (PEN) | Availability |
 |---|---|---|
 | IR LEDs 850 nm (×100) | S/ 83.30 | Low — import |
-| Raspberry Pi NoIR Camera v2 | S/ 200.00 | High — available in Peru |
+| Raspberry Pi NoIR Camera v3 | S/ 200.00 | High — available in Peru |
 | Raspberry Pi 4 (4 GB) | S/ 510.00 | Medium — import |
-| 7" Raspberry Pi LCD screen | S/ 315.00 | High — available in Peru |
+| 5" Raspberry Pi LCD screen | S/ 315.00 | High — available in Peru |
 | 3D printing | S/ 150.00 | High — available in Peru |
 | **Total** | **S/ 1,258.00** | Moderate |
 
