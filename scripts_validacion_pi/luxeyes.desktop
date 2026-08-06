@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Lux Eyes
+Comment=Tamizaje visual — arranque automático
+Exec=/home/theluxeyes/Desktop/lux_eyes_ui_rediseno/scripts_validacion_pi/iniciar_luxeyes.sh
+X-GNOME-Autostart-enabled=true
+Terminal=false
