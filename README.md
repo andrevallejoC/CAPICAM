@@ -239,17 +239,6 @@ Across all measured records, the average percentage error between CapiCam's esti
 - Upon ethics approval, execution of pilot screening tests with children aged 4–6 in educational institutions in the San Miguel district (Lima, Peru).
 - Formal usability evaluation of the device by non-specialist technical operators, including a standardized usability scale (e.g., SUS) and measurement of unassisted learning time.
 
-## Installation
-
-> **Placeholder.** Installation instructions are not yet available — the codebase and dependency manifest have not been organized into this repository. This section will be completed in Phase 2 once the repository structure, dependencies, and setup scripts are finalized.
-
-```bash
-# Coming soon
-git clone https://github.com/<your-github-username>/capicam.git
-cd capicam
-# setup instructions TBD
-```
-
 ## Usage
 
 > **Placeholder.** Usage instructions (running the acquisition pipeline, processing a captured session, generating a report) will be documented here once the corresponding code is published in Phase 2.
