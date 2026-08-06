@@ -241,27 +241,6 @@ Across all measured records, the average percentage error between CapiCam's esti
 - Upon ethics approval, execution of pilot screening tests with children aged 4–6 in educational institutions in the San Miguel district (Lima, Peru).
 - Formal usability evaluation of the device by non-specialist technical operators, including a standardized usability scale (e.g., SUS) and measurement of unassisted learning time.
 
-## Repository Structure
-
-> **Placeholder — to be defined in Phase 2.** The structure below is a proposed starting point based on the system's modules; it does not yet exist in the repository.
-
-```
-capicam/
-├── hardware/           # 3D models (enclosure, tripod mount), LED array schematics, BOM
-├── firmware/           # GPIO / LED sequencing control (Raspberry Pi)
-├── src/                # Image acquisition, processing, and refractive estimation pipeline
-│   ├── acquisition/
-│   ├── processing/
-│   └── reporting/
-├── notebooks/          # Exploratory / calibration notebooks
-├── data/               # Sample images, calibration data (anonymized/synthetic only)
-├── docs/                # Paper, user manual, assets (banner, diagrams)
-├── tests/
-├── requirements.txt     # or equivalent dependency manifest
-├── LICENSE
-└── README.md
-```
-
 ## Installation
 
 > **Placeholder.** Installation instructions are not yet available — the codebase and dependency manifest have not been organized into this repository. This section will be completed in Phase 2 once the repository structure, dependencies, and setup scripts are finalized.
