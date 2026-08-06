@@ -269,10 +269,3 @@ No license has been selected yet. For a research/portfolio-oriented hardware + s
 
 This is only a starting recommendation — final choice should also consider PUCP's institutional IP policies before publishing.
 
----
-
-<div align="center">
-
-*This README documents CapiCam as of the state described in the associated paper. Content will be expanded in Phase 2 as the repository structure, code, and documentation are built out.*
-
-</div>
