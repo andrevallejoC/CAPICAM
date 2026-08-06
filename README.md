@@ -6,7 +6,7 @@
 
 <!-- BANNER PLACEHOLDER: replace with a project banner (e.g. device photo + logo). Recommended size ~1280x400px -->
 <p align="center">
-  <img src="docs/assets/banner-placeholder.png" alt="CapiCam banner" width="800"/>
+
 </p>
 
 *A low-cost, child-friendly screening device that estimates refractive error to support early detection of refractive amblyopia in children aged 4–6.*
