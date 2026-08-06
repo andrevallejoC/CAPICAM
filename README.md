@@ -243,12 +243,6 @@ Across all measured records, the average percentage error between CapiCam's esti
 
 > **Placeholder.** Usage instructions (running the acquisition pipeline, processing a captured session, generating a report) will be documented here once the corresponding code is published in Phase 2.
 
-## Related Publications
-
-> Palomino Mozo, A. A., Chavez Rivas, A. S., Gamarra Leyva, A. I., Vallejo Canchanya, A., & Cárdenas Paniagua, D. B. L. (2026). *CapiCam: sistema portátil de fotorrefracción excéntrica infrarroja para el tamizaje de factores de riesgo de ambliopía refractiva en niños de 4 a 6 años.* Pontificia Universidad Católica del Perú.
-
-> A DOI, conference/journal name, or preprint link was not included in the provided document — let me know if you'd like it added once available.
-
 ## Authors
 
 Developed by a Biomedical Engineering team at **Pontificia Universidad Católica del Perú (PUCP)**, Lima, Perú:
